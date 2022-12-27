@@ -1,15 +1,50 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text#main-title",
+      "rich-text#main-description",
+      "info-card#main-right",
+      "info-card#main-left",
+      "footer"
     ]
   },
-  "rich-text": { 
+  "rich-text#main-title": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "**Olá!**\nEu sou um campo de Rich Text.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
+    }
+  },
+  "rich-text#main-description": { 
+    "props": { 
+      "text": "E eu sou uma descrição.",
+      "textAlignment": "LEFT"
+    }
+  },
+  "info-card#main-right": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "callToActionMode": "button",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#main-left": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+    "headline": "Shining chrome",
+    "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+    "callToActionMode": "link",
+    "callToActionText": "Go to collection",
+    "textAlignment": "center"
     }
   }
 }
